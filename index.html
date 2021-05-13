@@ -2,13 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Ristorante Con Fusion</title>
+    <title>veera selvam</title>
      <!-- Required meta tags always come first -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <meta http-equiv="x-ua-compatible" content="ie=edge">
      <link rel="stylesheet" href="./assets/css/main.css">
      <link rel="stylesheet" href="./node_modules/fontawesome/css/all.css">
+      
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
      
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -42,16 +48,17 @@
     <!--home-->
 <div id ="home" class="content ">
     <img src="assets/img/wp6784383.jpg" class="col-12 col-lg-12 col-md-6 col-sm-3"  alt="home">
-    <div class="text text-light">
+    <div class="text text-light animate__heartBeat animate__delay-2s"  >
         <h1>Veera selvam</h1>
         <h3>I'm Web Designer,</h3>
         <h3>    Developer</h3>
     </div>
 </div>
 <!--about-->
-<section id="about">
-<div  class="container">
-    <h3 class="text-warning">About</h3>
+<section id="about" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom" data-aos-duration="20000" >
+<div  class="container"  >
+    <h3 class="text-warning"data-aos="fade-right"data-aos-duration="30000">About</h3>
    <div class="row">
        <div class="col-12 col-lg-12 col-md-6 col-sm-3 text-light">
         The sorrows of a great advantage to raise up. Him, indeed, to the necessities of the flight of his is a result of something. Let there be consectetur velit. Anyone whom the one with greed. And no one has to prevent a receives the rest, for the. Because this man did flee from the duties in the advantage, we realize that this is a quas.
@@ -59,14 +66,14 @@
     </div>
        <div class="row">
        <div class="col-lg-4 col-sm-6">
-        <div class="card">
+        <div class="card"data-aos="zoom-in" data-aos-duration="50000">
             <img src="./assets/img/card.png" width="200px" height="200px" class="im card-img-top img-fluid" alt="...">
           </div>
         </div>
 
           <div class="col-sm-6">
             <div class="row">
-            <h3 id="abh"class="text-left text-warning"><u>UI/UX Designer & Web Developer</u></h3>
+            <h3 id="abh"class="text-left text-warning"data-aos="fade-left" data-aos-duration="40000"><u>UI/UX Designer & Web Developer</u></h3>
             </div>
             <div class="container">
                 <div class="row">
@@ -125,10 +132,11 @@
 </div>
 </section>
 <!--skills-->
-<section id="skills">
+<section id="skills"data-aos="fade-up"
+data-aos-duration="3000>
 <div class="container">
     <div class="row">
-        <h3 class="text-warning">skills</h3>
+        <h3 class="text-warning"data-aos="zoom-in-right">skills</h3>
         <p class="text-light">The sorrows of a great advantage to raise up. Him, indeed, to the necessities of the flight of his is a result of something. Let there be consectetur velit. Anyone whom the one with greed. And no one has to prevent a receives the rest, for the. Because this man did flee from the duties in the advantage, we realize that this is a quas.</p>
     </div>
     <div class="row skill-content">
@@ -188,7 +196,8 @@
 </div>
 </section>
 <!--certification-->
-<section id="certi">
+<section id="certi" data-aos="fade-up"
+data-aos-duration="3000>
     
     <div class="container">
     <div>
@@ -251,7 +260,8 @@
     </div>
 </section>
 <!--location-->
-<section id="cert">
+<section id="cert" data-aos="fade-up"
+data-aos-duration="3000>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -301,7 +311,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init(
+      );
+    </script>
 </body>
 
 </html>
