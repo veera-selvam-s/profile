@@ -2,6 +2,7 @@
   position: relative;
   text-align: center;
   color: white;
+  font-family: 'Bellota';
 
 }
 .text{
@@ -9,10 +10,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Bellota';
 }
 .im{
   max-width: 100%;
   height: 50px;
+  font-family: 'Bellota';
 }
 html{
   scroll-behavior: smooth;
@@ -21,29 +24,39 @@ html{
   padding-top: 20px;
   background-color:#000000;
   padding-bottom: 20px;
+  font-family: 'Bellota';
 }
 #certi{
   padding-top: 20px;
   background-color:#585858;
   padding-bottom: 20px;
+  font-family: 'Bellota';
 }
 #skills{
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color:#242424
+  background-color:#242424;
+  font-family: 'Bellota';
 }
 #skills span{
   color:white;
-}
-#cert{
- 
-  
-}
-.navbar-dark{
-  background-color:#f3ca20;
+  font-family: 'Bellota';
 }
 
-.cert{
-  background-color:#ffffff;
+.navbar-dark{
+  background-color:#f3ca20;
+  font-family: 'Bellota';
+}
+
+#cert{
+  background-color:#fff783;
   padding-top: 20px;
+  font-family: 'Bellota';
+}
+.accordion-body{
+  background-color:#000000;
+  color:#ffffff
+}
+.accordion-item{
+  background-color:#ffcc00
 }
