@@ -2,7 +2,7 @@
   position: relative;
   text-align: center;
   color: white;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 
 }
 .text{
@@ -10,51 +10,82 @@
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 .im{
   max-width: 100%;
   height: 50px;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 html{
+  background-color: #000000;
   scroll-behavior: smooth;
 }
 #about{
   padding-top: 20px;
   background-color:#000000;
   padding-bottom: 20px;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 #certi{
   padding-top: 20px;
   background-color:#000000;
   padding-bottom: 20px;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 #skills{
   padding-top: 20px;
   padding-bottom: 20px;
   background-color:#000000;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 #skills span{
   color:white;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar-dark{
   background-color:#f3ca20;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 
 #cert{
-  background-color:#ffd900;
   padding-top: 20px;
-  font-family: 'Bellota';
+  font-family: 'Poppins', sans-serif;
 }
 .accordion-body{
   background-color:#000000;
   color:#ffffff
 }
-
+#projects{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:#000000;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+#card{
+  background-color: #f3ca20;
+  margin:10px 10px;
+ 
+}
+#card:hover{
+  background-color: #ffffff;
+}
+.flex{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.card-img-top{
+  height: 236;
+}
+.card-title{
+  font-weight: 600;
+}
+.card-body{
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  align-self: center;
+}
